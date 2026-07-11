@@ -1,0 +1,9 @@
+p {/*es un elemento en bloque que convierto  en línea*/
+   display: inline;
+  background-color: yellow;}
+span {/*es un elemento en línea que convierto en bloque*/
+  display: block;
+  background-color: grey;}
+
+
+ 

@@ -1,0 +1,20 @@
+let a=8;
+let b=3;
+let c =3;
+document.write(a ==b);
+document.write ("<br>");
+document.write(a !=b);
+document.write ("<br>");
+document.write(a < b);
+document.write ("<br>");
+document.write(a > b);
+document.write ("<br>");
+document.write(a >= c);
+document.write ("<br>");
+document.write(a <= c);
+document.write ("<br>");
+document.write(3 == "3");
+document.write ("<br>");
+document.write(3 === "3");
+document.write ("<br>");
+

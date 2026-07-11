@@ -1,0 +1,26 @@
+.contenedor-menu {
+    width: 200px; /* Ancho fijo para el menú */
+}
+
+.menu-vertical {
+    display: flex; /* Activamos Flexbox */
+    flex-direction: column; /* Alineación vertical */
+    list-style: none; /* Quitamos viñetas */
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+    height: 100vh; /* Altura total de la pantalla */
+}
+
+.menu-vertical li a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    transition: background 0.3s;
+}
+
+.menu-vertical li a:hover {
+    background-color: #ddd; /* Efecto hover */
+}

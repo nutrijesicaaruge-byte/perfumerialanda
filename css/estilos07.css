@@ -1,0 +1,28 @@
+.contenedor {
+    background-color: rgb(230, 42, 230);
+    display: grid;
+    grid-template: repeat(3, 90PX)/repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    border: solid 5px rgb(230, 42, 230);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: stretch;
+}
+
+div {
+    display: grid;
+    border: solid 2px rgb(230, 42, 230);
+    border-radius: 5px;
+    background-color: rgb(230, 42, 230);
+}
+
+div:nth-child(4) {
+    background-color: rgb(230, 42, 230);
+}
+
+div:nth-child(9) {
+    background-color: blue;
+}
